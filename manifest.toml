@@ -96,7 +96,7 @@ ram.runtime = "1G"
 
     [resources.permissions]
     main.url = "/"
-    main.auth_header = false
+    main.auth_header = "basic-with-password"
 
     [resources.ports]
     main.default = 8086
